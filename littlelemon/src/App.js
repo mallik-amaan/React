@@ -1,15 +1,18 @@
-function Heading() { 
-  return ( 
-    <h1>This is an h1 heading.</h1> 
-  ) 
-} 
- 
+import React from 'react';
+import Header from './component/header';
+import Nav from './component/nav';
+import Promo from './component/promo';
+import './App.css';
 function App() { 
   return ( 
-    <div className="App"> 
-      This is the starting code for "Your first component" ungraded lab 
-      <Heading /> 
-    </div> 
+    <><div className="App">
+      <Promo/>  
+      This is the starting code  "Your first component" ungraded lab 
+    </div>
+    <Header />
+    <Nav/>
+    
+    </>
   ); 
 } 
  
